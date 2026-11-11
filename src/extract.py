@@ -213,8 +213,11 @@ def _extract_amount(lines: list[str]) -> tuple[str, str]:
         if _amount_magnitude(phrase) >= 10000:
             score += 2
         # A currency figure inside an income-criterion statement is the
-        # income limit, not the scholarship amount.
-        if "income" in low:
+        # income limit, not the scholarship amount. The statement may
+        # span lines ("Annual income should be less than" / "Rs 4.00
+        # Lacs"), so the two preceding lines count as context too.
+        context = " ".join(lines[max(0, i - 2) : i]).lower()
+        if "income" in low or "income" in context:
             score -= 6
         if score > best_score:
             best, best_score, best_line = phrase, score, ln

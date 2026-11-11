@@ -31,17 +31,17 @@ def load_records():
         rec = dict(row)
         rec["fields"] = json.loads(rec.get("fields_json") or "{}")
         rec["components"] = json.loads(rec.get("score_components") or "[]")
-        rec["evidence"] = conn.execute(
+        rec["evidence"] = [dict(r) for r in conn.execute(
             "SELECT field, value, evidence, source_url FROM field_evidence "
             "WHERE scholarship_id=? AND run_id=(SELECT MAX(run_id) FROM field_evidence "
             "WHERE scholarship_id=?) ORDER BY field",
             (row["id"], row["id"]),
-        ).fetchall()
-        rec["changes"] = conn.execute(
+        ).fetchall()]
+        rec["changes"] = [dict(r) for r in conn.execute(
             "SELECT field, old_value, new_value, detected_at, source_url, evidence "
             "FROM changes WHERE scholarship_id=? ORDER BY id",
             (row["id"],),
-        ).fetchall()
+        ).fetchall()]
         records.append(rec)
     stats = {}
     if records:
