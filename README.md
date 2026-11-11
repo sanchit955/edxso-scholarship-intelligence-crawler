@@ -12,6 +12,9 @@ Commission, USIEF), foundations/trusts (Inlaks, Tata Trusts, Foundation
 For Excellence) and corporate CSR programmes (LIC Golden Jubilee
 Foundation).
 
+**Applicant:** Sanchit — AI Engineer Intern applicant, edxso
+**Applicant resume:** https://drive.google.com/file/d/1ebEJU9fXKUT00wCWKyyKihG4sMMkH31E/view?usp=drivesdk
+
 ## Why it can be trusted
 
 - **Primary sources only.** Aggregators are never used as the authority
