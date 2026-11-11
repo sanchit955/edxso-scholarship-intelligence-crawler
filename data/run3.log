@@ -1,0 +1,91 @@
+=== Crawl run 3 started ===
+Seed [nsp_all_scholarships] https://scholarships.gov.in/All-Scholarships
+  discovered 30 schemes on NSP listing
+Multiple definitions in dictionary at byte 0x76a733 for key /Info
+Multiple definitions in dictionary at byte 0x76a740 for key /Info
+  [ok] Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Per
+  [ok] AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based 
+  [ok] Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme)
+  [ok] Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsd
+  [ok] PM YASASVI Central Sector Scheme Of Top Class Education In Schools For
+  [ok] Stipend Scheme For Under Graduate And Post Graduate Studies In Indian 
+  [ok] Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)
+  [ok] Central Sector Scholarship Of Top Class Education For SC Students (Mer
+  [ok] Pre Matric Scholarship For Students With Disabilities (Welfare Based S
+  [ok] National Means Cum Merit Scholarship (Merit Based Scheme)
+  [ok] PM-USP – Central Sector Scheme Of Scholarship For College And Universi
+  [ok] National Fellowship And Scholarship For Higher Education Of ST Student
+  [ok] Financial Support To The Students Of NER For Higher Professional Cours
+  [ok] Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Ba
+Seed [csc_uk_scholarships] https://cscuk.fcdo.gov.uk/scholarships/
+  discovered 10 candidate pages
+  [ok] Commonwealth Fellowships – information for candidates (non-ODA countri
+  [ok] Commonwealth Fellowships – information for UK host organisations
+  [ok] Commonwealth Startup Fellowships – information for candidates
+  [ok] Commonwealth Master’s Scholarships
+  [ok] Commonwealth Shared Scholarships
+Seed [usief_home] https://www.usief.org.in/
+  discovered 5 candidate pages
+  [skip] not a scholarship page: https://usief.org.in/event/fulbright-nehru-international-education-administrators-seminar-program-2025-india-visit/
+  [ok] 2027-2028 Fulbright Specialist Program for Indian Institutions - Welco
+  [skip] not a scholarship page: https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/
+  [skip] not a scholarship page: https://usief.org.in/fulbright-fellowships/fellowships-for-u-s-citizen/
+  [skip] not a scholarship page: https://usief.org.in/fulbright-fellowships/
+Seed [usief_indian_fellowships] https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/
+  discovered 8 candidate pages
+  [ok] 2026-2027 Fulbright Distinguished Awards in Teaching Program for Inter
+  [ok] 2027-2028 Fulbright-Nehru Academic and Professional Excellence Fellows
+  [ok] 2026-2027 Fulbright-Nehru International Education Administrators Award
+  [ok] 2027-2028 Fulbright Foreign Language Teaching Assistant (FLTA) Program
+Seed [inlaks_opportunities] https://www.inlaksfoundation.org/scholarships/
+  discovered 0 candidate pages
+  no outbound candidates; evaluating the index page itself
+  [ok] The Inlaks Scholarship
+Seed [tata_trusts_education] https://www.tatatrusts.org/our-work/individual-grants-programme/education
+  discovered 2 candidate pages
+  [skip] not a scholarship page: https://www.tatatrusts.org/join-us/opportunities-for-grantees
+  [skip] not a scholarship page: https://www.tatatrusts.org/explore-our-work/enabling-human-potential/individual-grants
+Seed [ffe_home] https://ffe.org/
+  discovered 2 candidate pages
+  [ok] Scholarships - Foundation For Excellence
+  [skip] not a scholarship page: https://ffe.org/beyond-scholarships/
+Seed [lic_golden_jubilee] https://licindia.in/web/guest/golden-jubilee-foundation
+  discovered 6 candidate pages
+  [ok] Golden Jubilee Scholarship Scheme- 2026
+  [ok] Golden Jubilee Scholarship Scheme- 2024
+  [skip] not a scholarship page: https://licindia.in/pension-group-schemes-withdrawn-products
+  [skip] not a scholarship page: https://licindia.in/pension-group-schemes-new-product
+  [skip] not a scholarship page: https://licindia.in/web/guest/archive-awards-and-achievements
+  [skip] not a scholarship page: https://licindia.in/web/guest/group-schemes
+Re-verifying previously known records not rediscovered...
+=== Run 3 finished ===
+{
+  "total": 28,
+  "verified": 15,
+  "review_required": 13,
+  "confidence_ge_95": 15,
+  "active": 9,
+  "expiring_soon": 13,
+  "expired": 6,
+  "no_longer_verifiable": 0,
+  "average_confidence": 92.3,
+  "source_types": 4,
+  "changes_total": 30,
+  "runs": 3
+}
+Changes detected this run:
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): amount 'Not specified' -> 'Rs. 50,000.00 per annum'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): eligibility 'Not specified' -> '1) The candidate should be from any one of the following categories: (i) Orphan OR (ii) Either or both parents died due to Covid 19 OR (iii) Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed) OR (iv) Parent is suffering from critical life threatening disease (Like Cancer etc.)/ Died or severely disabled (above 80%) in accident (as per RPwD Act 2016) AND'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): course_level 'Not specified' -> 'Higher Secondary (Class 11-12); Diploma / ITI; Professional courses'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): income_criteria 'Not specified' -> '2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): category_criteria 'Not specified' -> '(v) Category Certificate (SC/ST/OBC-NCL)'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): institution_requirements 'Not specified' -> 'AICTE – SWANATH SCHOLARSHIP'
+  - AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme): renewal_requirements 'Not specified' -> '8.0 RENEWALS:'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): amount 'Not specified' -> 'Rs.8,000/- per month'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): eligibility 'Not specified' -> '(I) The scholarship is open to those students who have passed Class XII or equivalent examination from a school situated within NER through a recognized Board of Education including Central Board of Secondary Education (CBSE), Indian Certificate of Secondary Education (ICSE), National Institute of Open Schooling (NIOS). (II) The scholarship is available for those students only, who are pursuing a recognized UG degree programmes as specified and notified by UGC from time to time. (III) Only the students, who are already admitted in the first year of UG degree programme in an eligible university/college/institution within India, are eligible to apply. In other words, a student who has secur...'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): academic_requirements 'Not specified' -> '50% of slots under each category are earmarked for Arts, Humanities and Social Sciences,'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): course_level 'Not specified' -> 'Higher Secondary (Class 11-12); Professional courses'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): income_criteria 'Not specified' -> '(IX) The income of the parents of the student should be below Rs. 04.50 lakh per annum.'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): domicile 'Not specified' -> '(X) Student should have a valid Domicile Certificate of any State of NER.'
+  - Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme): renewal_requirements 'Not specified' -> '7. RENEWALS'
+Exported 28 records to data/scholarships.json

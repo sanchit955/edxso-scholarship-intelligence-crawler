@@ -59,7 +59,7 @@ Outputs:
 
 - `data/scholarships.db` — SQLite database (schema in `schema.sql`)
 - `data/scholarships.json` — full export incl. evidence and change history
-- `data/run1.log`, `data/run2.log` — transcripts of the two demo runs
+- `data/run1.log`, `data/run2.log`, `data/run3.log` — transcripts of the demo runs
 - `docs/DEMO.md` — worked demonstration of the full loop
 
 ## How it works

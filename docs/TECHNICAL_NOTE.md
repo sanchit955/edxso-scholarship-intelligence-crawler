@@ -95,7 +95,7 @@ derived from the evidenced closing date (ACTIVE / EXPIRING_SOON ≤ 30
 days / EXPIRED). A previously known record whose official source can no
 longer be fetched or confirmed transitions to NO_LONGER_VERIFIABLE, and
 that transition is itself recorded as a change. The demonstration
-(`docs/DEMO.md`) shows two live runs of this loop, and `tests/`
+(`docs/DEMO.md`) shows repeated live runs of this loop, and `tests/`
 contains fixture-based tests that pin the diff semantics (a changed
 deadline is detected with old/new retained; an identical re-crawl
 produces no changes).
