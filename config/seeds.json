@@ -1,0 +1,70 @@
+{
+  "comment": "Seed index pages only. Individual scholarship records are discovered by parsing these listing/index pages at crawl time; no scholarship record is hand-entered.",
+  "seeds": [
+    {
+      "enrich_with_guideline_pdf": true,
+      "id": "nsp_all_scholarships",
+      "kind": "nsp_listing",
+      "max_records": 14,
+      "provider": "National Scholarship Portal, Government of India",
+      "source_type": "Government",
+      "url": "https://scholarships.gov.in/All-Scholarships"
+    },
+    {
+      "id": "csc_uk_scholarships",
+      "kind": "link_index",
+      "max_records": 5,
+      "provider": "Commonwealth Scholarship Commission in the UK",
+      "source_type": "International",
+      "url": "https://cscuk.fcdo.gov.uk/scholarships/"
+    },
+    {
+      "id": "usief_home",
+      "kind": "link_index",
+      "max_records": 4,
+      "provider": "United States-India Educational Foundation",
+      "source_type": "International",
+      "url": "https://www.usief.org.in/"
+    },
+    {
+      "id": "usief_indian_fellowships",
+      "kind": "link_index",
+      "url": "https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/",
+      "provider": "United States-India Educational Foundation",
+      "source_type": "International",
+      "max_records": 4
+    },
+    {
+      "id": "inlaks_opportunities",
+      "kind": "link_index",
+      "max_records": 3,
+      "provider": "Inlaks Shivdasani Foundation",
+      "source_type": "NGO/Trust",
+      "url": "https://www.inlaksfoundation.org/scholarships/"
+    },
+    {
+      "id": "tata_trusts_education",
+      "kind": "link_index",
+      "max_records": 3,
+      "provider": "Tata Trusts",
+      "source_type": "NGO/Trust",
+      "url": "https://www.tatatrusts.org/our-work/individual-grants-programme/education"
+    },
+    {
+      "id": "ffe_home",
+      "kind": "link_index",
+      "max_records": 3,
+      "provider": "Foundation For Excellence",
+      "source_type": "NGO/Trust",
+      "url": "https://ffe.org/"
+    },
+    {
+      "id": "lic_golden_jubilee",
+      "kind": "link_index",
+      "max_records": 3,
+      "provider": "LIC Golden Jubilee Foundation",
+      "source_type": "Corporate CSR",
+      "url": "https://licindia.in/web/guest/golden-jubilee-foundation"
+    }
+  ]
+}
